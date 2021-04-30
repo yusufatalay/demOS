@@ -1,0 +1,17 @@
+0x0 -> Interrup vector table
+
+0x400 -> BIOS data area
+
+0x7c00 -> Loaded boot sector machine code that loaded into RAM by the
+bootloader firmware
+
+0x7e00 -> Free , "stack area"
+
+0x9fc00 -> Extended BIOS Data Area , holds the data from the disk
+
+0xa0000 -> Video Memory 
+
+0xc0000 -> BIOS 
+
+0x100000 -> Free 
+
